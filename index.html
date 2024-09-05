@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Parfume</title>
+    <style>
+        #Parfume {
+            margin-top: 20px;
+            margin-left: 250px;
+            width: 850px;
+            height: 500px;
+            font-size: 25px;
+            padding: 60px;
+            border-radius: 15px 15px 15px 15px;
+            background-color: rgb(82, 130, 234);
+            /* border: 1px solid black; */
+            display: flex;
+            justify-self: center;
+            align-items: center;
+        }
+        #img {
+            width: 350px;
+            height: 500px;
+            margin-left: -0px;
+            margin-top: 50px;
+            border-radius: 15px;
+            display: flex;
+            justify-self: center;
+            align-items: center;
+        }
+         #i {
+             /* margin-top: 65px;  */
+            /* margin-left: 450px; */
+            color: rgb(255, 255, 255);
+            font-size: 40px;
+            display: flex;
+            justify-self: center;
+            align-items: center;   
+        }
+        #p {
+            /* margin-left: 490px; */
+            margin-top: 45px;
+            font-size: 35px;
+            display: flex;
+            justify-self: center;
+            align-items: center;
+        }
+        #s {
+            /* margin-left: 700px; */
+            /* margin-top: 100px; */
+            color: rgb(78, 76, 76);
+            font-size: 21px;
+        }
+        #price {
+            /* margin-left: 550px; */
+            margin-top: -0;
+            font-size: 35px;
+            color: rgb(255, 251, 251);
+            font-weight: 700px;
+
+        }
+        #shopping-card {
+            /* margin-left: 200px; */
+            border-radius: 11px;
+            padding: 7px;
+        }
+        #credit {
+            /* margin-left: 550px; */
+            width: 250px;
+            height: 50px;
+            border-radius: 15px;
+            background-color: rgb(188, 0, 0);            
+            color: rgb(255, 255, 255);
+            font-size: 18px;
+        }   
+        .Parfume-in {
+            display: flex;
+        }
+        #left {
+            margin-left: 30px;
+        }
+    </style>
+</head>
+<body>
+    <div id ="Parfume">
+        <div class="Parfume-in">
+            <img id="img" src="https://i.pinimg.com/originals/b8/12/d4/b812d4dd19cb873f6ae2b099453c2cd9.jpg " alt="">   
+            <div id="left">
+                <i style="margin-top: 50px; color: rgb(255, 255, 255); font-size: 30px; display: flex; justify-self: center; align-items: center;">PARFUME</i> 
+                <p style=" font-size: 35px; display: flex; justify-self: center; align-self: center;">Ralph Lauren’s Polo Blue cologne for men launched in 2003 </p>
+                <p style=" font-size: 18px; color: rgb(60, 60, 60); margin-top: 35px;">The base of Polo Blue EDT holds washed suede accord, patchouli heart, and sheer musk accord. The lighter fresh citrus notes in Polo Blue make it a great Spring and Summer but it can be used year round.</p>
+                <s style=" margin-top: 50px;color: rgb(78, 76, 76); font-size: 21px;">$169,99</s>
+                <p id="price">$149,99<i id="shopping-card" class="fa-solid fa-card-plus"></i></p>
+                <button class="credit" disabled id="credit">Add to Cart</button>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
